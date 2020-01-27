@@ -23,6 +23,17 @@ namespace DemoSwaggerUI.Controllers
             _logger = logger;
         }
 
+        /// <summary>
+        /// Get weathers
+        /// </summary>
+        /// <remarks>
+        /// Description
+        ///
+        ///     GET /WeatherForecast
+        ///     This will return a WeatherForecast object array
+        ///
+        /// </remarks> 
+        /// <returns></returns>
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
